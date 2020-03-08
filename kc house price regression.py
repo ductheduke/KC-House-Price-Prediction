@@ -1,17 +1,10 @@
-# Assignment 1 - KC House Price Prediction
+# King County House Price Prediction
 
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-import os
 import xgboost as xgb
-
-
-# Set the current working directory
-os.chdir('C:\\Users\\minhd\\Google Drive\\CLASS\\KA AI Bootcamp\\Assignments\\Assignment 1')
-cwd = os.getcwd()
-cwd
 
 # Importing the dataset
 dataset = pd.read_csv('kc_house_data.csv')
